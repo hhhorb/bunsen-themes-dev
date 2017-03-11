@@ -11,4 +11,4 @@ Bunsen-Blackish-Remix
 https://cdn.scrot.moe/images/2017/03/09/Screenshot_2017-03-09_11-44-34.png
 
 SoftWaves
-https://cdn.scrot.moe/images/2017/03/08/Screenshot_2017-03-07_21-40-27.png
+[![Screenshot_2017-03-07_21-40-27.md.png](https://cdn.scrot.moe/images/2017/03/08/Screenshot_2017-03-07_21-40-27.md.png)](https://scrot.moe/image/1wED0)
