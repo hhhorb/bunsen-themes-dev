@@ -6,3 +6,9 @@ Only tested using libgtk-3.0 (3.22.8), YMMV.
 Includes gtk-2.0/gtk-3.0, lightdm-gtk-greeter,
 Openbox and xfce4-notifyd themes. The notification
 theme is backwards compatible with xfce4-notifyd (0.2.4).
+
+Bunsen-Blackish-Remix
+https://cdn.scrot.moe/images/2017/03/09/Screenshot_2017-03-09_11-44-34.png
+
+SoftWaves
+https://cdn.scrot.moe/images/2017/03/08/Screenshot_2017-03-07_21-40-27.png
