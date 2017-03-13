@@ -16,5 +16,10 @@ SoftWaves
   
 [![Screenshot_2017-03-07_21-40-27.md.png](https://cdn.scrot.moe/images/2017/03/08/Screenshot_2017-03-07_21-40-27.md.png)](https://scrot.moe/image/1wED0)
 
-Note that these themes are not built with "dark" varieties.
-Please have that setting disabled in gnome-tweak-tool or gsettings.
+To remove GTK3's "overlay scrollbars" and their indicators...
+
+In ~/.xsessionrc, add `export GTK_OVERLAY_SCROLLING=0`
+
+In ~/.config/gtk-3.0/gtk.css, add ```/* Remove dotted lines from GTK+ 3 applications */
+undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { background-image: none; }
+```
