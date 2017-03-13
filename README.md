@@ -21,6 +21,7 @@ To remove GTK3's "overlay scrollbars" and their indicators...
 In ~/.xsessionrc, add `export GTK_OVERLAY_SCROLLING=0`
 
 In ~/.config/gtk-3.0/gtk.css, add 
-```/* Remove dotted lines from GTK+ 3 applications */
+```
+/* Remove dotted lines from GTK+ 3 applications */
 undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { background-image: none; }
 ```
