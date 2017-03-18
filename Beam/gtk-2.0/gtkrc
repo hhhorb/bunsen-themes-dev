@@ -3,13 +3,13 @@
 # based on "Greybird" by Simon Steinbeiß
 # Description: As is the original theme, this theme is 100% free and open source.
 
-gtk-color-scheme	= "bg_color:#CECECE\nselected_bg_color:#729992\nbase_color:#dbdbdb" # Background, base.
-gtk-color-scheme	= "fg_color:#212121\nselected_fg_color:#000000\ntext_color:#101010" # Foreground, text. 
-gtk-color-scheme	= "tooltip_bg_color:#CECECE\ntooltip_fg_color:#212121" # Tooltips.
+gtk-color-scheme	= "bg_color:#C8CFCB\nselected_bg_color:#74998B\nbase_color:#CFD6D2" # Background, base.
+gtk-color-scheme	= "fg_color:#13071B\nselected_fg_color:#000000\ntext_color:#13071B" # Foreground, text. 
+gtk-color-scheme	= "tooltip_bg_color:#C8CFCB\ntooltip_fg_color:#13071B" # Tooltips.
 gtk-color-scheme	= "link_color:#2d71b8" # Hyperlinks
-gtk-color-scheme	= "panel_bg:#CECECE" # same as bg_color
-gtk-color-scheme	= "fm_color:#101010" # same as fg_color
-gtk-color-scheme	= "bg_color_dark:#CECECE\ntext_color_dark:#101010"
+gtk-color-scheme	= "panel_bg:#C8CFCB" # same as bg_color
+gtk-color-scheme	= "fm_color:#13071B" # same as fg_color
+gtk-color-scheme	= "bg_color_dark:#C8CFCB\ntext_color_dark:#13071B"
 
 gtk-icon-sizes          = "panel-applications-menu=24,24:panel-menu=24,24:panel=16,16:gtk-button=16,16"
 gtk-button-images	= 0					# Disables icons for buttons with text
