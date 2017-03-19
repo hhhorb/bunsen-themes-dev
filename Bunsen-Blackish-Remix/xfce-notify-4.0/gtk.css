@@ -12,7 +12,7 @@
 
 #XfceNotifyWindow label,
 #XfceNotifyWindow image {
-    color: #bfbfbf;
+    color: #d9d9d9;
 }
 
 #XfceNotifyWindow label#summary {
@@ -25,7 +25,7 @@
     box-shadow: none;
     background-image: none;
     background-color: shade(#292929, 1.2);
-    color: #bfbfbf;
+    color: #d9d9d9;
 }
 
 #XfceNotifyWindow button:hover {
@@ -46,9 +46,9 @@
 
 #XfceNotifyWindow progressbar trough {
     background-image: linear-gradient(to bottom,
-                                      shade(#a6a6a6, 1.0),
-                                      shade(#a6a6a6, 1.0)
+                                      shade(#808080, 1.0),
+                                      shade(#808080, 1.0)
                                       );
-    border: 1px solid shade(#a6a6a6, 0.8);
+    border: 1px solid shade(#808080, 0.8);
     border-radius: 3px;
 }
