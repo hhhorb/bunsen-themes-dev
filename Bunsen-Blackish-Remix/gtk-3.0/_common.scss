@@ -2331,7 +2331,7 @@ scrollbar {
     min-width: 8px;
     min-height: 7px;
     margin: 1px 1px 1px 0;
-    border: 1px solid darken($selected_bg_color, 30%);
+    border: 1px solid darken($bg_color, 30%);
     border-radius: 0px;
     background-clip: padding-box;
     background-color: $scrollbar_slider_color;
@@ -3887,17 +3887,17 @@ tooltip {
   &.background {
     // background-color needs to be set this way otherwise it gets drawn twice
     // see https://bugzilla.gnome.org/show_bug.cgi?id=736155 for details.
-    background-color: transparentize(black, 0.2);
+    background-color: $bg_color;
     background-clip: padding-box;
-    border: 1px solid $tooltip_borders_color; // this suble border is meant to
+    border: 1px solid darken($bg_color, 5%); // this suble border is meant to
                                               // not make the tooltip melt with
                                               // very dark backgrounds
   }
 
   padding: 1px; /* not working */
-  border-radius: 5px;
+  border-radius: 0px;
   box-shadow: none; // otherwise it gets inherited by windowframe.csd
-  text-shadow: 0 1px black;
+  text-shadow: none;
 
   // FIXME: we need a border or tooltips vanish on black background.
   decoration { background-color: transparent; }
@@ -3905,7 +3905,7 @@ tooltip {
   * { // Yeah this is ugly
     padding: 1px;
     background-color: transparent;
-    color: white;
+    color: $fg_color;
   }
 }
 

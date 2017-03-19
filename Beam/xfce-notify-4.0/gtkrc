@@ -2,7 +2,7 @@ style "bunsen-notify-window"
 {
     bg[NORMAL] = "#C8CFCB" 
     XfceNotifyWindow::border-color = "#3c3c3c"
-    XfceNotifyWindow::border-color-hover = "#3c3c3c"
+    XfceNotifyWindow::border-color-hover = "#74998B"
     XfceNotifyWindow::border-radius = 0.0
     XfceNotifyWindow::border-width = 2.0
     XfceNotifyWindow::border-width-hover = 2.0

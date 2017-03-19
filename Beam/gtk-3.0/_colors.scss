@@ -7,10 +7,10 @@ $text_color: if($variant == 'light', #13071B, white);
 $bg_color: if($variant == 'light', #C8CFCB, #393f3f);
 $fg_color: if($variant == 'light', #13071B, #eeeeec);
 
-$selected_fg_color: #ffffff;
+$selected_fg_color: #000000;
 $selected_bg_color: if($variant == 'light', #74998B, darken(#398ee7,20%));
 $selected_borders_color: if($variant== 'light', darken($selected_bg_color, 30%), darken($selected_bg_color, 20%));
-$borders_color: if($variant == 'light', darken__($bg_color,30%), darken($bg_color,12%));
+$borders_color: if($variant == 'light', darken($bg_color,30%), darken($bg_color,12%));
 $borders_edge: if($variant == 'light', transparentize(white, 0.2), transparentize($fg_color, 0.93));
 $link_color: if($variant == 'light', #2d71b8, lighten(#2d71b8,20%));
 $link_visited_color: if($variant == 'light', darken($selected_bg_color,20%), lighten($selected_bg_color,10%));

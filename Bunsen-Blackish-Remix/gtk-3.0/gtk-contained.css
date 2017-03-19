@@ -262,8 +262,8 @@ entry {
   spinbutton:drop(active):focus:not(.vertical), spinbutton:drop(active):not(.vertical),
   entry:drop(active):focus,
   entry:drop(active) {
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 1px #4e9a06; }
+    border-color: #787878;
+    box-shadow: inset 0 0 0 1px #787878; }
   .osd spinbutton:not(.vertical), .osd
   entry {
     color: white;
@@ -328,7 +328,7 @@ entry:drop(active) + combobox > box > button.combo, .linked:not(.vertical) > spi
 entry, .linked:not(.vertical) >
 entry:drop(active) +
 entry {
-  border-left-color: #4e9a06; }
+  border-left-color: #787878; }
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + entry:not(:disabled), .linked.vertical > spinbutton:not(:disabled):not(.vertical) + spinbutton:not(:disabled):not(.vertical), .linked.vertical >
 entry:not(:disabled) + entry:not(:disabled), .linked.vertical >
 entry:not(:disabled) + spinbutton:not(:disabled):not(.vertical) {
@@ -354,7 +354,7 @@ entry + entry:focus:not(:only-child) {
 entry + spinbutton:drop(active):not(:only-child):not(.vertical),
 .linked.vertical >
 entry + entry:drop(active):not(:only-child) {
-  border-top-color: #4e9a06; }
+  border-top-color: #787878; }
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + spinbutton:not(.vertical),
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + entry,
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + button,
@@ -378,7 +378,7 @@ entry:drop(active):not(:only-child) + entry,
 entry:drop(active):not(:only-child) + button,
 .linked.vertical >
 entry:drop(active):not(:only-child) + combobox > box > button.combo {
-  border-top-color: #4e9a06; }
+  border-top-color: #787878; }
 
 treeview entry:focus:dir(rtl), treeview entry:focus:dir(ltr) {
   background-color: #333333;
@@ -561,9 +561,9 @@ button {
       padding-right: 4px; }
   combobox:drop(active) button.combo, notebook > header > tabs > arrow:drop(active), button.titlebutton:drop(active),
   button:drop(active) {
-    color: #4e9a06;
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 1px #4e9a06; }
+    color: #787878;
+    border-color: #787878;
+    box-shadow: inset 0 0 0 1px #787878; }
 row:selected
 button {
   border-color: #2c2c2c; }
@@ -2490,7 +2490,7 @@ scrollbar {
     min-width: 8px;
     min-height: 7px;
     margin: 1px 1px 1px 0;
-    border: 1px solid #2c2c2c;
+    border: 1px solid black;
     border-radius: 0px;
     background-clip: padding-box;
     background-color: dimgray; }
@@ -3691,13 +3691,13 @@ placessidebar row {
   placessidebar row.sidebar-placeholder-row {
     padding: 0 8px;
     min-height: 2px;
-    background-image: image(#4e9a06);
+    background-image: image(#787878);
     background-clip: content-box; }
   placessidebar row.sidebar-new-bookmark-row {
     color: #787878; }
   placessidebar row:drop(active):not(:disabled) {
-    color: #4e9a06;
-    box-shadow: inset 0 1px #4e9a06, inset 0 -1px #4e9a06; }
+    color: #787878;
+    box-shadow: inset 0 1px #787878, inset 0 -1px #787878; }
     placessidebar row:drop(active):not(:disabled):selected {
       color: #ffffff;
       background-image: linear-gradient(to bottom, #b0b0b0, #c4c4c4 10%, #cecece 92%, #bdbdbd); }
@@ -3914,19 +3914,19 @@ buttonbox {
 tooltip {
   padding: 1px;
   /* not working */
-  border-radius: 5px;
+  border-radius: 0px;
   box-shadow: none;
-  text-shadow: 0 1px black; }
+  text-shadow: none; }
   tooltip.background {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #292929;
     background-clip: padding-box;
-    border: 1px solid rgba(255, 255, 255, 0.1); }
+    border: 1px solid #1c1c1c; }
   tooltip decoration {
     background-color: transparent; }
   tooltip * {
     padding: 1px;
     background-color: transparent;
-    color: white; }
+    color: #d9d9d9; }
 
 /*****************
  * Color Chooser *
@@ -3972,11 +3972,11 @@ colorswatch.light overlay {
 colorswatch:drop(active) {
   box-shadow: none; }
   colorswatch:drop(active).light overlay {
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 2px #3d7805, inset 0 0 0 1px #4e9a06; }
+    border-color: #787878;
+    box-shadow: inset 0 0 0 2px #666666, inset 0 0 0 1px #787878; }
   colorswatch:drop(active).dark overlay {
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px #4e9a06; }
+    border-color: #787878;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px #787878; }
 colorswatch overlay {
   box-shadow: inset 0 2px 2px -3px rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.3); }
@@ -4218,8 +4218,8 @@ button.circular {
 
 :not(decoration):not(window):drop(active):focus,
 :not(decoration):not(window):drop(active) {
-  border-color: #4e9a06;
-  box-shadow: inset 0 0 0 1px #4e9a06; }
+  border-color: #787878;
+  box-shadow: inset 0 0 0 1px #787878; }
 
 stackswitcher button.text-button {
   min-width: 100px; }
