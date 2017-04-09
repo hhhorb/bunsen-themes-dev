@@ -7,7 +7,7 @@ Includes gtk-2.0/gtk-3.0, lightdm-gtk-greeter,
 Openbox and xfce4-notifyd themes. The notification
 theme is backwards compatible with xfce4-notifyd (0.2.4).
 
-Some matching wallpapers are in my bunsen-wallpapers repository...
+Some matching wallpapers are in my bunsen-wallpapers repository...  
 https://github.com/hhhorb/bunsen-wallpapers
 
 Bunsen-Blackish-Remix  
