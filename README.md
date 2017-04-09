@@ -27,3 +27,6 @@ In ~/.config/gtk-3.0/gtk.css, add...
 ```
 /* Remove dotted lines from GTK+ 3 applications */
 undershoot.top, undershoot.right, undershoot.bottom, undershoot.left { background-image: none; }
+
+Also, I recommend installing gtk3-nocsd to give GTK3 applications a more uniformed look...  
+https://packages.debian.org/stretch/gtk3-nocsd
