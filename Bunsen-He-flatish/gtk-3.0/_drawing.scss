@@ -203,9 +203,9 @@
     border-right-color: shade($bg_color, 0.72);
     border-left-color: shade($bg_color, 0.72);
     border-bottom-color: shade($bg_color, 0.7);
-    @if $variant == 'light' { background-image: linear-gradient(to bottom, shade(shade($c, 1.02), 1.05), shade(shade($c, 1.02), 0.97)); }
+    @if $variant == 'light' { background-image: linear-gradient(to bottom, shade(shade($c, 1.0), 1.0), shade(shade($c, 1.0), 1.0)); }
     @else { background-image: linear-gradient(to bottom, darken($c, 2%), darken($c, 4%) 60%, darken($c, 6%)); }
-    @include _shadows(inset 0 0 $_hilight_color, $_button_edge);
+  
   }
 
   @else if $t==hover {
